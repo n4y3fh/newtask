@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th><a target="_self" href="index.html">home</a></th>
+            <th><a target="_self" href="login.html">signin</a></th>
+            <th><a target="_self" href="register.html">register</a></th>
+            <th><a target="_self" href="menu.html">menu</a></th>
+            <th><a target="_self" href="orders.html">orders</a></th>
+            <th><a target="_self" href="wishlist.html">wishlist</a></th>
+            <th><a target="_self" href="contact.html">contact</a></th>
+            <th><a target="_self" href="about.html">about</a></th>
+    
+        </tr>
+    
+    
+    </table>
+
+    <form>
+        <h1>register new account</h1>
+        <br/>
+        <p>Please fill in this form to create an account.</p>
+        <p>if you have a account <a target="_self" href="login.html">click here </a> to login</p>
+        <br/>
+        <label for="first">first name</label>
+        <input type="text" id="first" name="first" placeholder="enter your first name..."/>
+        <br/>
+        <label for="last">last name</label>
+        <input type="text" id="last" name="last_name" placeholder="enter your last name..."/>
+        <br/>
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="enter your email ..."/>
+        <br/>
+        <label for="pass">password</label>
+        <input type="password" id="pass" name="password" placeholder="enter your password"/>
+        <br/>
+        <label>gender</label>
+        <br/>
+        <input type="radio" id="m" name="gender" value="male"/><label for="m">male</label>
+        <input type="radio" id="female" name="gender" value="female"/><label for="female">female</label>
+        <br/>
+        <label>Favorite food</label>
+        <br/>
+        <input type="checkbox" id="mashawi" name="mashawi"/> <label for="mashawi">مشاوي</label>
+        <br/>
+        <input type="checkbox" id="flafel" name="flafel"/><label for="flafel">فلافل</label>
+        <br/>
+        <input type="checkbox" id="humos" name="humos"/><label for="humos">حمص</label>
+        <br/>
+        <input type="checkbox" id="seezer" name="seezer"/><label for="seezer">سيزر</label>
+        <br/>
+        <input type="checkbox" id="fol" name="fol"/><label for="fol">فول</label>
+        <br/>
+        <input type="checkbox" id="taboleh" name="taboleh"/><label for="taboleh">تبوله</label>
+        <br/>
+        <input type="checkbox" id="salat" name="salat"/><label for="salat">سلطه</label>
+        <br/>
+        <label> date of birth</label> 
+        <br/>
+        <input type="date" name="date"/>
+        <br/>
+        <label> your city</label>
+        <select>
+            <option>nablus</option>
+            <option>ramallah</option>
+            <option>salfit</option>
+            <option>jenen</option>
+        </select>
+        <br/>
+        <input type="submit" value="register" name="submit"/>
+    </form>
+</body>
+</html>
